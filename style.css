@@ -21,6 +21,11 @@ nav {
     align-items: center;
 }
 
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -56,6 +61,9 @@ img {
 
 .upcoming {
     color: #8565d6;
+    font-family: "arsenica-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .hero h1 {
@@ -72,6 +80,7 @@ img {
     margin-top: auto;
     margin-left: -35px;
     margin-right: -35px;
+    margin-bottom: -20px;
 }
 
 .hero-buttons a {
@@ -117,6 +126,7 @@ img {
     height: 175px;
     object-fit: cover;
     display: block;
+    object-position: top;
 }
 
 .event-info {
@@ -233,4 +243,14 @@ footer a {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+h2 {
+    font-family: "arsenica-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.text {
+    width: 200px;
 }
